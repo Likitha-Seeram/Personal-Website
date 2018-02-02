@@ -1,5 +1,5 @@
 .bg {
-	background: url("images/pic1.JPG") no-repeat center center fixed;
+	background: url(images/pic1.jpg) no-repeat center center fixed;
    	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,7 +12,7 @@
 .info1 {
 	position: absolute;
 	top: 200px;
-	left: 70px;
+	
 	font-weight: bold;
 }
 
@@ -27,7 +27,7 @@
 	padding: 0;
 	border: 0;
 	font-family: Georgia, serif;
-	color: white;
+	color: black;
 }
 
 .mainButton {
@@ -48,6 +48,25 @@
 	position: absolute;
 	top: 470px;
 	left: 70px;
+}
+
+.details {
+	width: 980px;
+/*	background: #d4effc;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: right;
+	border-radius: 20px;
+	border: 2px solid grey;
+	box-shadow: 10px 5px 5px black;
+}
+
+.header1 {
+	color: purple;
+	font-family: "Calibri", sans-serif;
+	font-weight: bold;
 }
 
 .info5 {
@@ -82,12 +101,12 @@
 
 .me {
 	position: relative;
-	top: 75px;
+	left: 10px;
 }
 
 .textFormat {
 	font-family: "Calibri", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
 }
 
